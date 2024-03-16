@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import todoLogo from '../../assets/todo.png'
+import { BgImageMT } from '../../components/Mantine/BgImageMT.tsx/BgImageMT'
 import {
   Button,
   Center,
@@ -22,6 +23,22 @@ export const HomePage = () => {
 
   return (
     <Container>
+      <BgImageMT
+        m={10}
+        h={180}
+        p="35px 0px 0px 30px"
+        title="Redux scheme"
+        c="#FF0000"
+        src="../../../public/redux_1.1.jpg"
+      />
+      <BgImageMT
+        m={10}
+        h={180}
+        p="0 0px 0px 50px"
+        title="Redux scheme"
+        c="#FF0000"
+        src="../../../public/redux_1.2.jpg"
+      />
       <Center>
         <a
           href="https://github.com/vitalyvitmens/rs-react-todo"

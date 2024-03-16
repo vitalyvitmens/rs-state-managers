@@ -34,7 +34,9 @@ export const BgImageMT: React.FC<BgImageMTProps> = ({
       <Box maw={300} mx="auto" m={m}>
         <BackgroundImage src={src} radius={radius} h={h} w={w}>
           <Center p={p}>
-            <Text c={c}>{title}</Text>
+            <Text c={c} p={p}>
+              {title}
+            </Text>
           </Center>
         </BackgroundImage>
       </Box>
